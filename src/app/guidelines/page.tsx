@@ -1,12 +1,13 @@
+
 import GuidelineItem, { type GuidelineData } from "@/components/guideline-item";
 import { Accordion } from "@/components/ui/accordion";
-import { FirstAidKit, Home, ShieldCheck,Zap, Waves, Flame, Activity, Mountain, Wind, ThermometerSun } from "lucide-react";
+import { BriefcaseMedical, Home, ShieldCheck,Zap, Waves, Flame, Activity, Mountain, Wind, ThermometerSun } from "lucide-react";
 
 const placeholderGuidelines: GuidelineData[] = [
   {
     id: "g1",
     title: "Kit de Emergência Básico",
-    Icon: FirstAidKit,
+    Icon: BriefcaseMedical,
     content: [
       "Tenha sempre um kit com: água potável (pelo menos 3 litros por pessoa), alimentos não perecíveis para 3 dias, lanterna com pilhas extras, rádio a pilhas, kit de primeiros socorros, medicamentos essenciais, apito, máscara contra poeira.",
       "Inclua também: cópias de documentos importantes (identidade, certidões) em saco plástico, dinheiro em espécie, agasalhos, cobertor leve, mapa da região e um carregador de celular portátil.",
