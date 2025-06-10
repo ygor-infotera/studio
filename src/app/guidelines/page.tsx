@@ -1,6 +1,7 @@
 
 import GuidelineItem, { type GuidelineData } from "@/components/guideline-item";
 import { Accordion } from "@/components/ui/accordion";
+import { Card, CardContent } from "@/components/ui/card";
 import { BriefcaseMedical, Home, ShieldCheck,Zap, Waves, Flame, Activity, Mountain, Wind, ThermometerSun } from "lucide-react";
 
 const placeholderGuidelines: GuidelineData[] = [
